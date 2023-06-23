@@ -1,0 +1,41 @@
+author			= "Tiber Brutus";
+onLoadName		= "Operation Trident";
+onLoadMission	= "Task force Spartan begin counter smuggling operations on Moray";
+loadScreen		= "";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Operation Success";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+	};
+    class End2
+	{
+		title = "Operation Failed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+	};
+};
+
+class CfgSounds
+
+{
+
+ tracks[]={};
+
+ class Track01
+ {
+
+  name = "Track01";
+
+  sound[] = {"\Track01.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+};
